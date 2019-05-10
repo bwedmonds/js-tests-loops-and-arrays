@@ -4,6 +4,9 @@
 // output: ['is', 'a', 'split', 'sentence.', 'This']
 
 function rearranger(arr) {
+  let firstElement = arr.shift();
+  arr.push(firstElement);
+  return arr;
 }
 
 
@@ -16,6 +19,9 @@ function rearranger(arr) {
 // output: 42
 
 function largestNum(arr) {
+  Arr.max = function (arr) {
+    return Math.max.apply(Math, arr);
+  };
 }
 
 
